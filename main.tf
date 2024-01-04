@@ -4,4 +4,3 @@ resource "aws_ssm_parameter" "main" {
   type  = each.value["type"]
   value = each.value["value"]
 }
-

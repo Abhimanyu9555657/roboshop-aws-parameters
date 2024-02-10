@@ -7,5 +7,6 @@ parameters = {
   "docdb.dev.master_password" = { type = "String", value = "roboshop1234"}
   "rds.dev.master_password" = { type = "String", value = "roboshop1234"}
 
-
+  "nexus.username" = { type = "String", value = "admin"}
+  "nexus.password" = { type = "SecureString", value = "admin123"}
 }
